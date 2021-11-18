@@ -7,8 +7,36 @@
     justify-content: center;
   }
 
+  .content {
+
+    width: 70rem;
+  }
+
   button {
     width: 100px;
     height: 30px;
   }
+
+  .second {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+
+
+    .box {
+      display: flex;
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+    }
+
+    .radio_checkbox {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: row;
+    }
+  }
+
 }

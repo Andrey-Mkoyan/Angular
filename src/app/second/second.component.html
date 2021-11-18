@@ -6,12 +6,19 @@
         {{item}}
       </li>
     </ol>
-
+    <hr>
+    <hr>
+    <hr>
     <div class="second">
-      <input type="radio">
-      <input type="radio">
-      <input type="radio">
-      <input type="radio">
+      <div [style.background-color]="color" class="box">
+
+      </div>
+      <div class="radio_checkbox">
+        <input (click)="color = 'gold'" name="radio" type="radio">
+        <input (click)="color = 'silver'" name="radio" type="radio">
+        <input (click)="color = 'blue'" name="radio" type="radio">
+        <input (click)="color = 'red'" name="radio" type="radio">
+      </div>
     </div>
   </div>
 </div>

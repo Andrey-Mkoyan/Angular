@@ -7,14 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondComponent implements OnInit {
 
-  array = [1, 2, 3]
-
-  constructor() { }
+  array = [1, 2, 3];
+  color = 'green'
+  constructor() { };
 
   ngOnInit(): void {
-  }
+  };
 
   addStr() {
     this.array.push(this.array.length + 1)
-  }
+  };
+
+
+
 }
