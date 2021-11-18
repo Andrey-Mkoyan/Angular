@@ -1,0 +1,23 @@
+.container {
+  width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 20px;
+    background: rgb(201, 128, 128);
+    text-decoration: none;
+
+  }
+}
+
+.hr {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
